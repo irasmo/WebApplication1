@@ -1,0 +1,75 @@
+﻿@model WebApplication1.Models.Exam
+
+<br />
+<h2 class="text-info">@(Model.ID != 0 ? "Edit" : "Create") Exam</h2>
+<br />
+
+<div class="border container" style="padding:20px;">
+    <form method="post">
+        @if (Model.ID != 0)
+        {
+            <input type="hidden" asp-for="ID" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Surname"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Surname" class="form-control" />               
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Subject"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Subject" class="form-control" />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Grade"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Grade" class="form-control" />
+                <span asp-validation-for="Grade" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Speciality"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Speciality" class="form-control" />
+                <span asp-validation-for="Speciality" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="Teacher"></label>
+                </div>
+                <div class="col-6">
+                    <input asp-for="Teacher" class="form-control" />
+                    <span asp-validation-for="Teacher" class="text-danger"></span>
+                </div>
+        </div>
+        
+        <div class="form-group row">
+            <div class="col-3 offset-3">
+                <button type="submit" class="btn btn-primary form-control">
+                    @(Model.ID != 0 ? "Update" : "Create")
+                </button>
+            </div>
+            <div class="col-3">
+                <a asp-action="Index_us" class="btn btn-success form-control">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
