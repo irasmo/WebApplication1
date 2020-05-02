@@ -30,6 +30,8 @@ namespace WebApplication1.Models
         public string ConfirmPassword { get; set; }
         [Required]
         public string Role { get; set; }
+        [Required]
+        public string State { get; set; }
         public Registr()
         {
 

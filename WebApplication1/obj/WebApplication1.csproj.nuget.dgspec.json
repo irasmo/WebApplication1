@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AjaxMin": {
+              "target": "Package",
+              "version": "[5.14.5506.26202, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -90,7 +94,11 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
+            },
+            "MicrosoftMvcAjax.Mvc5": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "NHibernate": {
               "target": "Package",

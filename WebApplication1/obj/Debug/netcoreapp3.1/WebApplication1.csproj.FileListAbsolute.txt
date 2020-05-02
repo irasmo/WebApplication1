@@ -440,7 +440,12 @@ D:\C#\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\System.CodeDom.dll
 D:\C#\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 D:\C#\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\C#\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
-D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Users\Account_ad.cshtml.g.cs
 D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index_l.cshtml.g.cs
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Users\Show.cshtml.g.cs
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Users\Upsert_User.cshtml.g.cs
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Users\Change.cshtml.g.cs
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Users\Find.cshtml.g.cs
+D:\C#\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\AjaxMin.dll
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache

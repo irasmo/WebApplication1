@@ -27,11 +27,14 @@ namespace WebApplication1.Models
         public string Password { get; set; }
         [Required]
         public string Role { get; set; }
-        
+        [Required]
+        public string State { get; set; }
+
         public User()
         {
 
         }
+       
 
     }
     
